@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menus Downtown — Wild Ginger</title>
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <a href="/index.html"
+          ><img src="/assets/images/wg_logo.png" alt="logo" class="logo"
+        /></a>
+      </div>
+      <div class="nav-items">
+        <a href="#" class="order-btn">Order Online</a>
+        <div class="dropdown">
+          <span class="drop-link">Reservations</span>
+          <div class="dropdown-content">
+            <a
+              href="/pages/reservation/reservation-downtown.html"
+              class="active-location"
+              >Downtown</a
+            >
+            <a href="/pages/reservation/reservation-mckenzie.html">Mckenzie</a>
+            <a href="/pages/reservation/resesrvation-bellevue.html">Bellevue</a>
+          </div>
+        </div>
+        <a href="/pages/locations.html" class="nav-btn">Locations</a>
+        <div class="dropdown">
+          <span class="drop-link">Menus</span>
+          <div class="dropdown-content">
+            <a href="/pages/menu/menu-downtown.html" class="active-location"
+              >Downtown</a
+            >
+            <a href="/pages/menu/menu-mckenzie.html">Mckenzie</a>
+            <a href="/pages/menu/menu-bellevue.html">Bellevue</a>
+          </div>
+        </div>
+        <a href="/pages/events.html" class="nav-btn">private dining & events</a>
+        <div class="dropdown">
+          <span class="drop-link">About</span>
+          <div class="dropdown-content">
+            <a href="/pages/about/story.html" class="active-location">Story</a>
+            <a href="/pages/about/blog.html">Blog</a>
+          </div>
+        </div>
+        <div><i class="fa-solid fa-cart-shopping"></i>&nbsp;</div>
+      </div>
+    </nav>
+    <section id="menu-header-section">
+      <div class="menu-overlay">
+        <div class="menu-heading">
+          <h1>
+            Downtown Menu
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section id="menu-section">
+      <div class="menu-description">
+        <p>The food at Wild Ginger spans the eastern Pacific Rim from China to Indonesia, and <br>
+        Malaysia to Vietnam. Come take a culinary tour of China and Southeast Asia — our staff <br>
+        is here to guide and inspire you. Family style service, like in classic Asian restaurants,<br>
+        creates an enriching experience where guests share a range of tastes together.</p>
+      </div>
+    </section>
+    <section id="menu-wrapper">
+      <div class="menu-container">
+        <div class="menu-tabs">
+          <input type="radio" name="menu-toggle" id="tab-lunch" checked />
+          <input type="radio" name="menu-toggle" id="tab-dinner" />
+          <input type="radio" name="menu-toggle" id="tab-drinks" />
+          <div class="tab-labels">
+            <label for="tab-lunch" class="label-lunch">LUNCH</label>
+            <label for="tab-dinner" class="label-dinner">DINNER</label>
+            <label for="tab-drinks" class="label-drinks">DRINKS</label>
+          </div>
+          <div class="content-container">
+            <div id="lunch-content" class="tab-content">
+              <div class="menu-grid">
+                <h2 class="category-title">satays</h2>
+                <p class="category-subtitle">with dipping sauce, rice cake and pickled cucumbers</p>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>malay chicken ~ 6 skewers (gf)</strong> <span class="price">16</span>
+                    <p>Marinated in lemongrass, ginger, shallots and spices. Served with a peanut dipping sauce.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>thai mushroom ~ 4 skewers (v) (gf)</strong> <span class="price">17</span>
+                    <p>Fresh local shiitake mushrooms are marinated in coriander, garlic and spices. Served with a chili vinegar dipping sauce.</p>
+                  </div>
+                </div>
+                <h2 class="category-title">starters</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>siam lettuce cups (gf)</strong><span class="price">33</span>
+                    <p>Sea bass, jicama, roasted peanuts, Thai basil, lime juice, chili, and tamarind. Served with butter lettuce leaves for wrapping.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>chicken potstickers (6)</strong><span class="price">18.5</span>
+                    <p>House-made potstickers filled with chicken and mushroom. Served with a black vinegar dipping sauce.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>thai spring rolls (3) (v)</strong><span class="price">12</span>
+                    <p>3 crispy spring rolls filled with vegetables and mushrooms.</p>
+                  </div>
+                </div>
+                <h2 class="category-title">noodles</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>mongolian noodles</strong><span class="price">25</span>
+                    <p>House-made egg noodles wok-fried in a spicy Mongolian chili sauce, julienne vegetables, mushrooms, crushed peanuts, cucumber noodles. Add flank steak for 9.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>chicken pad thai (gf)</strong><span class="price">24</span>
+                    <p>A classic Thai noodle dish with chicken, fried tofu, egg, peanuts, chives and thin rice noodles.</p>
+                  </div>
+                </div>
+                <h2 class="category-title">mains</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>peanut & fresh herbs sea bass (gf)</strong> <span class="price">48</span>
+                    <p>Marinated in house-made fish sauce, pan-fried and topped with aromatic Southeast Asian herbs and crushed peanuts.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>fragrant duck</strong> <span class="price">26/48</span>
+                    <p>Twice cooked fresh duck spiced with Sichuan Peppercorn and spice. Served with steamed bao buns, Sichuan peppercorn salt and sweet plum sauce. A house specialty.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>seven flavor beef</strong> <span class="price">30</span>
+                    <p>Flank steak fragrant with the seven flavors of lemongrass, peanuts, hoisin, chilies, basil, garlic, and ginger. A Vietnamese specialty.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>indonesian beef</strong> <span class="price">34</span>
+                    <p>Beef flank is slow cooked with potato in a soy and ginger sauce until tender.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>northern style pork</strong> <span class="price">29</span>
+                    <p>A classic from the golden triangle. Pork shoulder and belly are slow cooked in an aromatic sauce with hints of mace, cinnamon, cardamom, and pickled garlic. Garnished with peanuts and fried ginger.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>black pepper scallops</strong> <span class="price">44</span>
+                    <p>Scallops are quickly seared and coated with soy sauce and black pepper. A Hong Kong specialty.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>hong kong crispy prawns</strong> <span class="price">32</span>
+                    <p>This unique Chinese style dish features succulent prawns that are flash fried with dried oats and garlic.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>thai passion tofu (v)(gf)</strong> <span class="price">22</span>
+                    <p>Fried tofu, eggplant, soy sauce, kafir lime leaf and basil.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="dinner-content" class="tab-content">
+              <div class="menu-grid">
+                <h2 class="category-title">satay</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>malay chicken</strong><span class="price">16</span>
+                    <p>6 skewers marinated in lemongrass, ginger, shallots and spices. Served with a peanut dipping sauce.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>singapore beef</strong><span class="price">18</span>
+                    <p>6 skewers marinated in lemongrass, ginger, shallots and spices. Served with a peanut dipping sauce.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>nonya pork</strong><span class="price">16</span>
+                    <p>6 skewers marinated in turmeric and spices, then grilled and served with a pineapple peanut sauce.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>thai mushroom (v) (gf)</strong><span class="price">17</span>
+                    <p>4 skewers of fresh local shiitake mushrooms are marinated in coriander, garlic and spices. Served with a chili vinegar dipping sauce.</p>
+                  </div>
+                </div>
+                <h2 class="category-title">starters</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>siam lettuce cups (gf)</strong><span class="price">33</span>
+                    <p>Sea bass, jicama, roasted peanuts, Thai basil, lime juice, chili, and tamarind. Served with butter lettuce leaves for wrapping.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>thai spring rolls (3) (v)</strong><span class="price">12</span>
+                    <p>Fried spring rolls filled with vegetables and mushrooms. Lettuce, thai basil, cilantro and bean sprouts provided for wrapping. Served with a sweet-hot dipping sauce.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>tuna tartare*</strong><span class="price">25</span>
+                    <p>Sashimi grade ahi tuna, roasted dried chilies, sesame oil and sesame seeds.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>chicken potstickers (6)</strong><span class="price">18.5</span>
+                    <p>House-made potstickers filled with chicken and mushroom. Served with a black vinegar dipping sauce.</p>
+                  </div>
+                </div>
+                <h2 class="category-title">land</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>fragrant duck</strong><span class="price">26 / 48</span>
+                    <p>Twice cooked fresh duck spiced with Sichuan Peppercorn and 5 spice. Served with steamed buns, Sichuan peppercorn salt and sweet plum sauce.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>seven flavor beef</strong><span class="price">30</span>
+                    <p>Flank steak fragrant with the seven flavors of lemongrass, peanuts, chilies, hoisin, basil, garlic and ginger.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>indonesian beef</strong><span class="price">34</span>
+                    <p>Beef flank is slow cooked in a soy and ginger sauce until tender.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>nam's lamb chops</strong><span class="price">38</span>
+                    <p>Marinated in cognac and Sichuan peppercorn then grilled and finished with hoisin, fresh toasted coconut and crushed peanuts.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>indian butter chicken (gf)</strong><span class="price">26</span>
+                    <p>Locally raised chicken cooked in a creamy heirloom tomato sauce with exotic Indian spices.</p>
+                  </div>
+                </div>
+                <h2 class="category-title">sea</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>seabass cha ca (gf)</strong><span class="price">52</span>
+                    <p>Seabass is marinated, wok-fried, and served over rice noodles with five fresh herbs, galangal, and ginger.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>black pepper scallops</strong><span class="price">44</span>
+                    <p>Scallops are quickly seared and coated with soy sauce and black pepper.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>hong kong crispy prawns</strong><span class="price">32</span>
+                    <p>Flash-fried with dried oats and garlic.</p>
+                  </div>
+                </div>
+                <h2 class="category-title">noodles</h2>
+                <div class="menu-types">
+                  <div class="menu-item">
+                    <strong>mongolian noodles</strong><span class="price">25</span>
+                    <p>House-made egg noodles wok-fried in a spicy Mongolian chili sauce, julienne vegetables, mushrooms, crushed peanuts, cucumber noodles.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>thai seafood noodles</strong><span class="price">29</span>
+                    <p>Wide rice noodles are wok-fried with prawns, squid, mussels, and light soy sauce with hints of basil and chili.</p>
+                  </div>
+                  <div class="menu-item">
+                    <strong>chicken pad thai</strong><span class="price">24</span>
+                    <p>A classic Thai noodle dish with chicken, fried tofu, egg, peanuts, chives and thin rice noodles.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="drinks-content" class="tab-content">
+              <h2 class="category-title">wine</h2>
+              <p class="category-desc">At Wild Ginger we have been exploring wine pairings with our menu since opening our doors in 1989. For many Asian foods, we believe wine is the best match. In Asia, dishes are judged by the balance or contrast of the five flavors: sweet, sour, salty, spicy, and bitter. Wines are judged on similar merits and a glass of wine contains its equivalent to each of these tastes. </p>
+              <a href="#" class="wine-link">View wine list</a>
+              <div class="menu-grid">
+                <h2 class="category-title">cocktails</h2>
+                  <div class="menu-types">
+                    <div class="menu-item">
+                      <strong>temple of the tooth</strong> <span class="price">19</span>
+                      <p>curry leaf infused whiskey, aperol, sweet vermouth, peychaud’s bitters</p>
+                    </div>
+                    <div class="menu-item">
+                      <strong>bittersweet martini</strong> <span class="price">16</span>
+                      <p>deep eddy ruby red vodka, aperol, st germain, bitters</p>
+                    </div>
+                    <div class="menu-item">
+                      <strong>thai chili margarita</strong> <span class="price">15</span>
+                      <p>house infused spicy tequila, lime, fresh squeezed grapefruit juice, lime salt rim</p>
+                    </div>
+                    <div class="menu-item">
+                      <strong>kickin’ mango</strong> <span class="price">16</span>
+                      <p>house infused spicy rum, lime, mango</p>
+                    </div>
+                    <div class="menu-item">
+                      <strong>glass gimlet</strong> <span class="price">16</span>
+                      <p>local vodka from glass distillery, fresh muddled cucumber, thai basil, fresh squeezed lemonade</p>
+                    </div>
+                    <div class="menu-item">
+                      <strong>cracked coconut martini</strong> <span class="price">16</span>
+                      <p>don q cristal rum, lime, pineapple, coconut</p>
+                    </div>
+                    <div class="menu-item">
+                      <strong>green dragon</strong> <span class="price">16</span>
+                      <p>stoli citros vodka, thai basil, lemon</p>
+                    </div>
+                  </div>
+                  <h2 class="category-title">sake</h2>
+                  <div class="menu-types">
+                    <div class="menu-item">
+                      <strong>dewazakura omachi “jewel brocade” junmai ginjo</strong> <span class="price">15. (4 oz) $80. (720 ml bottle)</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>gekkeikan horin ultra premium junmai daiginjo</strong> <span class="price">44. (300ml)</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>heiwa shuzou nigori futsushu</strong> <span class="price">13. (4 oz) $65. (720 ml bottle)</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>masumi “mirror of truth” okuden kantsukuri junmai</strong> <span class="price">30. (300ml bottle)</span>
+                    </div>
+                  </div>
+                  <h2 class="category-title">bottles</h2>
+                  <div class="menu-types">
+                    <div class="menu-item">
+                      <strong>stella artois</strong> <span class="price">19</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>singha</strong> <span class="price">16</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>tsing tao</strong> <span class="price">15</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>corona</strong> <span class="price">16</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>guinness</strong> <span class="price">16</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>bud light</strong> <span class="price">16</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>dru bru hefeweizen</strong> <span class="price">16</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>yonder hard apple cider</strong> <span class="price">16</span>
+                    </div>
+                    <div class="menu-item">
+                      <strong>sapporo (large)</strong> <span class="price">16</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-image-disp">
+        <img src="/assets/images/wgimg.png" alt="//">
+      </div>
+    </section>
+    <section id="wine-wrapper">
+      <div class="wine-container">
+        <div class="wine-image-container">
+          <img src="/assets/images/noir.jpg" alt="wine" class="wine-image" />
+        </div>
+        <div class="wine-info-content">
+          <h1 class="wine-info-title">Our Wine</h1>
+          <p class="wine-info">
+            We've been exploring wine pairings with our menu since opening our doors in 1989, and our aim is to serve vintages at their peak — cellaring bottles that benefit from aging, decanting reds, and serving all wines at the proper temperature. We offer two wine lists: our everyday list features wines specifically selected for their value or their ability to complement our menu, and the reserve list (Seattle Downtown location only) containing rare bottles and verticals. View each below.
+          </p>
+          <div class="wine-button">
+            <a href="#" class="wine-btn">View downtown wine list</a>
+          </div>
+          <div class="wine-button">
+            <a href="#" class="wine-btn">view downtown reserve wine list</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu-info-wrapper">
+      <div class="menu-info-container">
+        <div class="menu-image-container">
+          <img src="/assets/images/kKYK2prE.jpg" alt="menu-linker" class="menu-image" />
+        </div>
+        <div class="menu-info-content">
+          <h1 class="menu-info-title">PDF Menus</h1>
+          <a href="#" class="type-menu">Lunch</a><br />
+          <a href="#" class="type-menu">Dinner</a><br />
+          <a href="#" class="type-menu">Desert</a><br>
+          <a href="#" class="type-menu">Drinks& Liquor</a><br>
+          <a href="#" class="type-menu">Kids Menu</a><br>
+          <a href="#" class="type-menu">Happy hour</a><br>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-link">
+            <a href="#">Gift Cards</a>
+            <a href="#">Contact</a>
+            <p>Careers (coming soon)</p>
+            <a href="#">Merch</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div class="social-container">
+            <a href="#" class="icon-link email-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="#" class="icon-link instagram-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-branches">
+          <div class="branch-container">
+            <div class="branch-link">
+              <a href="#">SEATTLE | DOWNTOWN</a>
+            </div>
+            <div class="branch-info">
+              <p>
+                1401 3rd Ave. <br />
+                Seattle, WA 98101 <br />
+                206.623.4450
+              </p>
+            </div>
+            <div class="footer-reservation">
+              <a href="/pages/reservation/reservation-mckenzie.html"
+                >RESERVATIONS</a
+              >
+              <a href="#" class="reservation-link">HOURS</a>
+              <a href="#">Like Us on facebook</a>
+            </div>
+          </div>
+          <div class="branch-container">
+            <div class="branch-link">
+              <a href="#">SEATTLE | McKENZIE</a>
+            </div>
+            <div class="branch-info">
+              <p>
+                2202B 8th Ave.<br />
+                Seattle, WA 98121<br />
+                206.707.0396
+              </p>
+            </div>
+            <div class="footer-reservation">
+              <a href="/pages/reservation/reservation-mckenzie.html"
+                >RESERVATIONS</a
+              >
+              <a href="#" class="reservation-link">HOURS</a>
+              <a href="#">Like Us on facebook</a>
+            </div>
+          </div>
+          <div class="branch-container">
+            <div class="branch-link">
+              <a href="#">BELLEVUE</a>
+            </div>
+            <div class="branch-info">
+              <p>
+                508 Bellevue Way NE<br />
+                Bellevue, WA 98004<br />
+                425.495.8889
+              </p>
+            </div>
+            <div class="footer-reservation">
+              <a href="/pages/reservation/resesrvation-bellevue.html"
+                >RESERVATIONS</a
+              >
+              <a href="#" class="reservation-link">HOURS</a>
+              <a href="#">Like Us on facebook</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-section">
+          <p>© COPYRIGHT 2026 Sulakshyan Bolakhe</p>
+        </div>
+      </div>
+    </section>
+    <section class="footer-end">
+      <div></div>
+    </section>
+  </body>
+</html>
