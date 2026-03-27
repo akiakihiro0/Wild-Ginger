@@ -1,0 +1,316 @@
+#dining-section {
+  position: relative;
+  height: 72vh;
+  background-image: url("/assets/images/2TzTTY5l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dining-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.diner-heading h1 {
+  padding-top: 150px;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#private-dining{
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    padding:100px 0px 35px;
+}
+.diner-info p{
+  text-align: center;
+  font-weight: 700;
+}
+.dining-links{
+  padding: 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.dining-links a{
+  font-size: 54px;
+  font-weight: 300;
+  margin-top: 44.82px;
+  text-decoration: underline;
+  text-decoration-color: #f0af91;
+  color: #a86343;
+}
+
+.dining-links a:hover{
+  color: #f0af91;
+  transition: 0.3s ease;
+}
+
+.diner-event{
+  width: 69.994%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.diner-event-title{
+  font-weight: 300 !important;
+  margin-bottom: .5em;
+  color: #a86343;
+  text-align: center;
+  font-size: 54px;
+}
+.diner-event-subtitle{
+  font-weight: 350 !important;
+  margin-bottom: .5em;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#event-request{
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif
+}
+#qualities-section{
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif
+}
+.display-img{
+    height: 100%;
+    width: 1200px;
+}
+.event-button {
+  text-align: center;
+  padding: 35px 500px 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.event-btn {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid #a86343;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-align: center;
+  align-items: center;
+}
+
+.event-btn:hover {
+  color: white;
+  background-color: #a86343;
+}
+
+.download-button {
+  text-align: center;
+  padding: 35px 400px 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.download-btn {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid #a86343;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  text-align: center;
+  align-items: center;
+}
+
+.download-btn:hover {
+  color: white;
+  background-color: #a86343;
+}
+
+.quality-wrapper{
+    display: flex;
+    gap: 0px;
+}
+.quality-container{
+  padding: 17px;
+}
+.quality-img{
+    width: 380px;
+    height: 100%;
+}
+.quality-text{
+  padding-top: 10px;
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-size: 20px;
+  font-family: Montserrat;
+  line-height: 1.5em;
+  font-style: normal;
+  color: #281e15;
+}
+.quality-text h1{
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 1.2em;
+  text-align: left;
+  color: #a65e3f;
+  margin-bottom: 16px;
+}
+.quality-text p{
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 1.2em;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1024px) {
+
+  #dining-section {
+    height: 60vh;
+    background-attachment: scroll;
+  }
+
+  .diner-heading h1 {
+    font-size: 48px;
+    padding-top: 100px;
+  }
+
+  .dining-links a {
+    font-size: 36px;
+    margin-top: 25px;
+  }
+
+  .diner-event {
+    width: 90%;
+  }
+
+  .diner-event-title {
+    font-size: 40px;
+  }
+
+  .display-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .event-button,
+  .download-button {
+    padding: 30px 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .quality-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .quality-img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  #dining-section {
+    height: 50vh;
+  }
+
+  .diner-heading h1 {
+    font-size: 32px;
+    padding-top: 70px;
+  }
+
+  #private-dining {
+    padding: 60px 15px 30px;
+  }
+
+  .dining-links a {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+
+  .diner-event {
+    width: 100%;
+  }
+
+  .diner-event-title {
+    font-size: 28px;
+  }
+
+  .diner-event-subtitle {
+    font-size: 15px;
+  }
+
+  .display-img {
+    width: 100%;
+  }
+
+  .event-button,
+  .download-button {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+  }
+
+  .event-btn,
+  .download-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+  }
+
+  .quality-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quality-container {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .quality-img {
+    width: 100%;
+  }
+
+  .quality-text h1,
+  .quality-text p {
+    text-align: center;
+  }
+
+  .quality-text {
+    font-size: 16px;
+  }
+}

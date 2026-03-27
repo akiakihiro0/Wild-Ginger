@@ -1,0 +1,266 @@
+.reservation-section{
+    padding: 35px 50px  50px 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.reservation-heading{
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+.reservation-heading h1{
+    position: relative;
+    color: #a86343;
+    font-family: 'Montserrat';
+    font-weight: 450;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.reservation-sub-heading{
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+.reservation-sub-heading h1{
+    position: relative;
+    color: #a86343;
+    font-family: 'Montserrat';
+    font-weight: 330;
+    font-size: 67px;
+}
+
+.reservation-description{
+    position: relative;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 350;
+    font-size: 17px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.reservation-bar-container {
+    max-width: 700px;
+    margin: 35px auto 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.res-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #231F20;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.res-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.res-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    flex: 1;
+    background: white;
+    
+}
+
+.res-group + .res-group {
+    border-left: 1px solid #ccc;
+}
+
+.res-group i {
+    color: #333;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.res-group select, 
+.res-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    background: transparent;
+    cursor: pointer;
+}
+
+.find-table-btn {
+    background-color: #D63946;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.3s;
+}
+
+.find-table-btn:hover {
+    background-color: #b52b37;
+}
+
+.native-datepicker {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+    cursor: pointer;
+    appearance: none;
+}
+.native-datepicker::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+#reservation-info-wrapper{
+  max-width: 800px;
+  margin: auto;
+}
+
+.reservation-info{
+  position: relative;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-weight: 350;
+  font-size: 17px;
+  padding: 0px;
+}
+
+.reservation-details{
+  padding-bottom: 10px;
+}
+
+.res-discrip{
+  font-family: 'Montserrat';
+  font-weight: 670;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+.res-sub-discrip{
+  font-family: 'Montserrat';
+  font-weight: 670;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.reservation-policies{
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+
+  .reservation-sub-heading h1 {
+    font-size: 48px;
+  }
+
+  .reservation-description {
+    font-size: 16px;
+  }
+
+  .reservation-bar-container {
+    margin: 30px auto 120px;
+    padding: 0 20px;
+  }
+
+  .res-bar {
+    flex-wrap: wrap;
+  }
+
+  .res-group {
+    flex: 1 1 45%;
+    border-left: none !important;
+    border-top: 1px solid #ccc;
+  }
+
+  .res-group:nth-child(1),
+  .res-group:nth-child(2) {
+    border-top: none;
+  }
+
+  .find-table-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .reservation-section {
+    padding: 30px 20px;
+  }
+
+  .reservation-heading h1 {
+    font-size: 14px;
+  }
+
+  .reservation-sub-heading h1 {
+    font-size: 32px;
+  }
+
+  .reservation-description {
+    font-size: 15px;
+  }
+
+  .reservation-bar-container {
+    margin: 25px auto 80px;
+  }
+
+  .res-bar {
+    flex-direction: column;
+    border: none;
+  }
+
+  .res-group {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  .res-group + .res-group {
+    border-left: 1px solid #ccc;
+  }
+
+  .find-table-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 13px;
+  }
+
+  .res-title {
+    font-size: 13px;
+  }
+
+  #reservation-info-wrapper {
+    padding: 0 15px;
+  }
+
+  .reservation-info,
+  .res-discrip,
+  .res-sub-discrip {
+    font-size: 15px;
+  }
+}

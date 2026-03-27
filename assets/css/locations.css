@@ -1,0 +1,260 @@
+#location-header-section {
+  position: relative;
+  height: 72vh;
+  background-image: url("/assets/images/QH6dUert.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.location-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.location-heading h1 {
+  padding-top: 150px;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.branch-introduction{
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 100px 17px 70px;
+}
+.branch-quicklink{
+    font-family: "Montserrat", sans-serif;
+    max-width: 425px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px #bbbbbb solid;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.branch-quicklink a{
+    color: #a86343;
+    text-decoration: none;
+    text-align: center;
+}
+.branch-quicklink a:hover{
+    color: #ce9c85;
+    transition: 0.3s ease;
+}
+#locations-wrapper{
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.branch{
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 50px;
+  padding: 135px 17px 17px;
+}
+.branch-image-container{
+  padding: 10px 10px 10px 0px;
+}
+.branch-image{
+  height: auto;
+  width: 570px;
+}
+
+.branch-info-content{
+  padding-top: 203px;
+  padding-bottom: 30px;
+}
+.branch-info-title{
+  font-weight: 327;
+  color: #a86343;
+  font-size: 48px;
+  letter-spacing: 0.1px;
+  line-height: 1;
+  margin-bottom: 18px;
+  text-align: left;
+}
+.branch-info-subtitle{
+  font-weight: 500;
+  color: #a86343;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.branch-description{
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.branch-address{
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.branch-address a{
+    text-decoration: underline;
+    text-decoration-color: #c08b73;
+    color: #000000;
+}
+
+.branch-address a:hover{
+    text-decoration: underline;
+    text-decoration-color: #c08b73;
+    color: #a86343;
+}
+.branch-button {
+  padding-top: 35px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.branch-btn {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid #a86343;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.branch-btn:hover {
+  color: white;
+  background-color: #a86343;
+}
+
+@media (max-width: 1024px) {
+
+  #location-header-section {
+    height: 60vh;
+    background-attachment: scroll;
+  }
+
+  .location-heading h1 {
+    font-size: 48px;
+    padding-top: 100px;
+  }
+
+  .branch-introduction {
+    padding: 70px 20px 50px;
+  }
+
+  .branch-quicklink {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .branch {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .branch-image {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .branch-info-content {
+    padding-top: 40px;
+  }
+
+  .branch-info-title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .branch-info-subtitle,
+  .branch-description,
+  .branch-address {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #location-header-section {
+    height: 50vh;
+  }
+
+  .location-heading h1 {
+    font-size: 32px;
+    padding-top: 70px;
+  }
+
+  .branch-introduction {
+    padding: 50px 15px 40px;
+  }
+
+  .branch-quicklink {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .branch {
+    padding: 60px 15px;
+    gap: 20px;
+  }
+
+  .branch-image {
+    width: 100%;
+  }
+
+  .branch-info-title {
+    font-size: 26px;
+  }
+
+  .branch-info-subtitle {
+    font-size: 16px;
+  }
+
+  .branch-description,
+  .branch-address {
+    font-size: 15px;
+  }
+
+  .branch-button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .branch-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+  }
+}

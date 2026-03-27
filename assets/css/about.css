@@ -1,0 +1,167 @@
+#about-page-section {
+  position: relative;
+  height: 57vh;
+  background-image: url("/assets/images/story-head.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-page-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.story-heading h1 {
+  padding-top: 150px;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.history-description{
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 130px 80px;
+}
+
+.history-description p{
+  text-align: center;
+  font-family: 'Montserrat';
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-style: normal;
+  color: #281e15;
+}
+
+
+.story{
+  font-family: 'Montserrat';
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 60px;
+  padding: 0px 17px 17px;
+}
+.story-image-container{
+  padding: 10px 10px 10px 0px;
+}
+.story-image{
+  height: auto;
+  width: 550px;
+}
+
+.story-info-content{
+  padding-top: 300px;
+  padding-bottom: 30px;
+}
+.story-description{
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.story-address{
+    text-decoration: underline;
+    text-decoration-color: #c08b73;
+    color: #000000;
+}
+.story-address:hover{
+    text-decoration: underline;
+    text-decoration-color: #c08b73;
+    color: #a86343;
+}
+
+@media (max-width: 1024px) {
+
+  #about-page-section {
+    height: 50vh;
+    background-attachment: scroll;
+  }
+
+  .story-heading h1 {
+    font-size: 48px;
+    padding-top: 100px;
+  }
+
+  .history-description {
+    padding: 80px 40px;
+  }
+
+  .history-description p {
+    font-size: 18px;
+  }
+
+  .story {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .story-image {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .story-info-content {
+    padding-top: 40px;
+  }
+
+  .story-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #about-page-section {
+    height: 45vh;
+  }
+
+  .story-heading h1 {
+    font-size: 32px;
+    padding-top: 70px;
+  }
+
+  .history-description {
+    padding: 60px 20px;
+  }
+
+  .history-description p {
+    font-size: 16px;
+  }
+
+  .story {
+    padding: 0 15px;
+    gap: 20px;
+  }
+
+  .story-image {
+    width: 100%;
+  }
+
+  .story-description {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,430 @@
+#menu-header-section {
+  position: relative;
+  height: 72vh;
+  background-image: url("/assets/images/signdish.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu-heading h1 {
+  padding-top: 150px;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.menu-description{
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 100px;
+}
+.menu-description p{
+  text-align: center;
+  font-family: 'Montserrat';
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 0em;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-style: normal;
+  color: #281e15;
+}
+
+#menu-wrapper{
+    background-color: #F0F4F5;
+    padding: 100px;
+}
+.menu-container{
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 5vw;
+    border-top: 3px solid #D9D9D9;
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.tab-content {
+  display: none;
+  text-align: center;
+}
+
+#tab-lunch:checked ~ .content-container #lunch-content {
+  display: block;
+}
+
+#tab-dinner:checked ~ .content-container #dinner-content {
+  display: block;
+}
+
+#tab-drinks:checked ~ .content-container #drinks-content {
+  display: block;
+}
+
+#tab-lunch:checked ~ .tab-labels .label-lunch,
+#tab-dinner:checked ~ .tab-labels .label-dinner,
+#tab-drinks:checked ~ .tab-labels .label-drinks{
+  color: #a67c52;
+}
+
+.tab-labels {
+  max-width: 970px;
+  text-align: center;
+  margin-bottom: 5em;
+  padding: 18px;
+  border-bottom: 1px #D9D9D9 solid;
+  margin-top: -24px;
+}
+
+.tab-labels label {
+  margin: 0 15px;
+  cursor: pointer;
+  color: #ccc;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.menu-types{
+  max-width: 970px;
+  margin: auto;
+  padding: 70px 30px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: left;
+  text-align: left;
+  gap: 70px;
+}
+
+.span .price{
+  text-align: right;
+}
+
+.category-title{
+  color: #a65e3f;
+  font-weight: 300 !important;
+  text-transform: lowercase;
+  font-size: 40px !important;
+  padding-top: 30px;
+  line-height: 1.15;
+  margin-bottom: .375em;
+}
+
+.category-desc{
+  max-width: 840px;
+  margin: auto;
+  text-align: center;
+  font-size: .85em;
+  line-height: 1.4em;
+  padding-bottom: 10px;
+}
+
+.menu-image-disp{
+  padding: 165px 0px 165px;
+  max-width: 1210px;
+  margin: auto;
+}
+.menu-image-disp img{
+  align-items: center;
+  height: auto;
+  width: 1210px;
+}
+
+.wine-link{
+  text-align: center;
+  font-size: .95em;
+  line-height: 1.4em;
+  padding-bottom: 10px;
+  color: #333;
+  text-decoration:underline;
+  text-decoration-color: #a65e3f;
+}
+
+#wine-wrapper{
+  background-color: #ffffff;
+}
+
+.wine-container{
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 50px;
+  padding: 135px 17px 150px;
+}
+.wine-image-container{
+  padding: 10px;
+}
+.wine-image{
+  height: auto;
+  width: 570px;
+}
+
+.wine-info-content{
+  padding-top: 203px;
+  padding-bottom: 30px;
+}
+.wine-info-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 327;
+  color: #a86343;
+  font-size: 48px;
+  letter-spacing: 0.1px;
+  line-height: 1.7;
+}
+
+.wine-info{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0.1px;
+  line-height: 1.7;
+}
+
+.wine-button {
+  padding-top: 35px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.wine-btn {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid #a86343;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.wine-btn:hover {
+  color: white;
+  background-color: #a86343;
+}
+
+#menu-info-wrapper{
+  background-color: #EEF1F2;
+}
+
+.menu-info-container{
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 50px;
+  padding-top: 240px;
+  padding-bottom: 140px;
+}
+.menu-image-container{
+  padding: 10px;
+}
+.menu-image{
+  height: auto;
+  width: 570px;
+}
+
+.menu-info-content{
+  padding-top: 95px;
+  padding-bottom: 30px;
+}
+.menu-info-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 285;
+  color: #a86343;
+  font-size: 48px;
+  letter-spacing: 0.1px;
+  line-height: 1.7;
+}
+
+.menu-info-container a{
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: #c58d54;
+}
+.menu-info-container a:hover{
+  color: #a86343;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+
+  #menu-header-section {
+    height: 60vh;
+    background-attachment: scroll;
+  }
+
+  .menu-heading h1 {
+    font-size: 48px;
+    padding-top: 100px;
+  }
+
+  .menu-description {
+    padding: 80px 40px;
+  }
+
+  .menu-description p {
+    font-size: 18px;
+  }
+
+  #menu-wrapper {
+    padding: 60px 30px;
+  }
+
+  .menu-types {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .tab-labels {
+    margin-bottom: 3em;
+  }
+
+  .menu-image-disp img {
+    width: 100%;
+  }
+
+  .wine-container,
+  .menu-info-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wine-image,
+  .menu-image {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .wine-info-content,
+  .menu-info-content {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #menu-header-section {
+    height: 50vh;
+  }
+
+  .menu-heading h1 {
+    font-size: 32px;
+    padding-top: 70px;
+  }
+
+  .menu-description {
+    padding: 60px 20px;
+  }
+
+  .menu-description p {
+    font-size: 16px;
+  }
+
+  #menu-wrapper {
+    padding: 40px 15px;
+  }
+
+  .menu-container {
+    padding: 25px 15px;
+  }
+
+  .tab-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .tab-labels label {
+    display: block;
+    padding: 10px;
+  }
+
+  .menu-types {
+    padding: 40px 15px;
+    gap: 25px;
+  }
+
+  .category-title {
+    font-size: 26px !important;
+  }
+
+  .category-desc {
+    font-size: 14px;
+  }
+
+  .menu-image-disp {
+    padding: 80px 0;
+  }
+
+  .menu-image-disp img {
+    width: 100%;
+  }
+
+  .wine-container {
+    padding: 80px 15px;
+  }
+
+  .wine-info-title {
+    font-size: 28px;
+  }
+
+  .wine-info {
+    font-size: 15px;
+  }
+
+  .wine-button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-info-container {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    gap: 20px;
+  }
+
+  .menu-info-title {
+    font-size: 28px;
+  }
+
+  .menu-info-container a {
+    font-size: 15px;
+  }
+}
