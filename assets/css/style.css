@@ -184,7 +184,7 @@
 #reservation-section {
   position: relative;
   height: 50vh;
-  background-image: url("../images/chinese_quisine.jpg");
+  background-image: url(".../images/chinese_quisine.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -433,7 +433,7 @@
 #wine-section {
   position: relative;
   height: 60vh;
-  background-image: url("../images/wine.jpg");
+  background-image: url(".../images/wine.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
