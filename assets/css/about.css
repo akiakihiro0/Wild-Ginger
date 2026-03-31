@@ -1,7 +1,7 @@
 #about-page-section {
   position: relative;
   height: 57vh;
-  background-image: url("../images/story-head.jpg");
+  background-image: url(".../images/story-head.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
