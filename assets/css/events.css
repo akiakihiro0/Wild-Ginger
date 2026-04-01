@@ -1,7 +1,7 @@
 #dining-section {
   position: relative;
   height: 72vh;
-  background-image: url("/assets/images/2TzTTY5l.jpg");
+  background-image: url("../assets/images/2TzTTY5l.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
