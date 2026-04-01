@@ -131,7 +131,7 @@
 }
 
 .gift-card-section {
-  background-image: url(".../images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fff;
@@ -184,7 +184,7 @@
 #reservation-section {
   position: relative;
   height: 50vh;
-  background-image: url(".../images/chinese_quisine.jpg");
+  background-image: url("../images/chinese_quisine.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
