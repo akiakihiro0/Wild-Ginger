@@ -1,7 +1,7 @@
 #menu-header-section {
   position: relative;
   height: 72vh;
-  background-image: url("/assets/images/signdish.jpg");
+  background-image: url("../assets/images/signdish.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
