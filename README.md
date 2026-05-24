@@ -1,18 +1,19 @@
 # Wild-Ginger
-This is a replica website of a asian american restaurant website based in Seattle (USA)
+
+
 # Wild Ginger — Restaurant Website Replica
 
-A modern front-end replica of the official [Wild Ginger restaurant website](https://www.wildginger.net/?utm_source=chatgpt.com), recreated as a personal web development project and deployed with GitHub Pages.
+A modern front-end replica of the official [Wild Ginger restaurant website](https://www.wildginger.net/), recreated as a personal web development project and deployed with GitHub Pages.
 
 This project focuses on responsive UI design, modern layout structure, visual hierarchy, and recreating the premium dining experience of the original website using front-end technologies.
 
 ## Live Demo
 
-[View Live Website](https://akiakihiro0.github.io/Wild-Ginger/?utm_source=chatgpt.com)
+[View Live Website](https://akiakihiro0.github.io/Wild-Ginger/)
 
 ## About the Project
 
-This is a non-commercial educational project inspired by the design and branding of the original [Wild Ginger restaurant website](https://www.wildginger.net/?utm_source=chatgpt.com). The goal was to practice:
+This is a non-commercial educational project inspired by the design and branding of the original [Wild Ginger restaurant website](https://www.wildginger.net/). The goal was to practice:
 
 * Advanced front-end layout recreation
 * Responsive restaurant website design
@@ -69,13 +70,13 @@ Run locally by opening `index.html` in your browser.
 
 This project is deployed using:
 
-[GitHub Pages](https://pages.github.com/?utm_source=chatgpt.com)
+[GitHub Pages](https://pages.github.com/)
 
 ## Disclaimer
 
 This project is created strictly for educational and portfolio purposes.
 
-All branding, restaurant names, images, and design inspiration belong to the original [Wild Ginger restaurant](https://www.wildginger.net/?utm_source=chatgpt.com) and their respective owners.
+All branding, restaurant names, images, and design inspiration belong to the original [Wild Ginger restaurant](https://www.wildginger.net/) and their respective owners.
 
 No commercial use or copyright infringement is intended.
 
@@ -93,6 +94,6 @@ No commercial use or copyright infringement is intended.
 
 Created by Sulakshyan Bolakhe
 
-GitHub: [akiakihiro0 GitHub Profile](https://github.com/akiakihiro0?utm_source=chatgpt.com)
+GitHub: [akiakihiro0 GitHub Profile](https://github.com/akiakihiro0)
 
-[1]: https://www.wildginger.net/?utm_source=chatgpt.com "Wild Ginger"
+[1]: https://www.wildginger.net/ "Wild Ginger"
