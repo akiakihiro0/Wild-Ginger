@@ -46,9 +46,17 @@ The original restaurant was established in 1989 and is known for Southeast Asian
 
 You can add screenshots here later using:
 
-```md
-![Homepage Screenshot](./screenshots/homepage.png)
-```
+#Homepage
+![Homepage Screenshot](https://github.com/akiakihiro0/Wild-Ginger/blob/604ac373745dcb3b2e422b7c68f423737ebc33f7/home.png)
+
+#Paralax
+![Paralax Screenshot](https://github.com/akiakihiro0/Wild-Ginger/blob/604ac373745dcb3b2e422b7c68f423737ebc33f7/paralax.png)
+
+#Grid
+![Grid Screenshot](https://github.com/akiakihiro0/Wild-Ginger/blob/604ac373745dcb3b2e422b7c68f423737ebc33f7/grid.png)
+
+#Form
+![Form Screenshot](https://github.com/akiakihiro0/Wild-Ginger/blob/604ac373745dcb3b2e422b7c68f423737ebc33f7/form.png)
 
 ## Installation
 
